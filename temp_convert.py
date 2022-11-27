@@ -6,12 +6,17 @@
 
 
 def fahrenheit():
+    # catch any errors
     try:
+        # get and cast user input for celsius
         celsius = float(input("Enter temperature (°C): "))
     except:
         print("Please enter a valid temperature")
     else:
+        # calculate fahrenheit
         fahrenheit = 9 / 5 * celsius + 32
+
+        # display results
         print(f"{celsius}°C is {fahrenheit:.2f}°F")
 
 
