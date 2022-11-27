@@ -2,7 +2,7 @@
 
 # Created by Kevin Csiffary
 # Date: Nov. 27, 2022
-# This program prints converts celsius to fahrenheit in a function
+# This program converts celsius to fahrenheit in a function
 
 
 def fahrenheit():
